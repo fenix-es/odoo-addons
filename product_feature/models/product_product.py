@@ -15,6 +15,6 @@ class ProductProduct(models.Model):
     product_feature_value_ids = fields.One2many(
         comodel_name='product_feature.value',
         inverse_name='product_id',
-        string='Feature values',
+        string='Feature Values',
         help='You can manage the features in the product template, then you can input here values for each one.',
     )

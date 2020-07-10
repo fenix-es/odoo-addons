@@ -29,16 +29,16 @@ class ProductFeature(models.Model):
         index=True,
     )
     name = fields.Char(
-        string='Feature name',
+        string='Feature Name',
         required=True,
         translate=True,
     )
     value_type = fields.Selection([
-        ('table', "Values table"),
-        ('text', "Text value"),
-        ('number', "Number value"),
+        ('table', "Values Table"),
+        ('text', "Text Value"),
+        ('number', "Number Value"),
     ],
-        string='Type of value',
+        string='Type of Value',
         required=True,
         default='table',
         help="This selection defines the type of value used for the feature.",
@@ -50,7 +50,7 @@ class ProductFeature(models.Model):
 
     table_value_ids = fields.One2many(
         comodel_name='product_feature.table_value',
-        inverse_name='feature_id', string='Feature table values')
+        inverse_name='feature_id', string='Feature Table Values')
 
     _sql_constraints = [
         ('product_feature_uniq_key', 'UNIQUE (company_id, code, name)',
@@ -79,7 +79,7 @@ class TableValue(models.Model):
         index=True,
     )
     name = fields.Char(
-        string='Value name',
+        string='Value Name',
         required=True,
         translate=True,
     )
@@ -163,7 +163,7 @@ class ProductFeatureLine(models.Model):
         for line in self:
             if line.min_number_value and line.max_number_value:
                 if line.min_number_value > line.max_number_value:
-                    raise ValidationError(_('Minimum value can not be lower than maximum value.'))
+                    raise ValidationError(_('Minimum value can not be greater than maximum value.'))
             if line.default_number_value:
                 if line.min_number_value:
                     if line.min_number_value > line.default_number_value:
@@ -181,7 +181,7 @@ class ProductFeatureLine(models.Model):
                 if self.min_number_value > self.max_number_value:
                     return {'warning': {
                         'title': _('Value out of limits!'),
-                        'message': _('Minimum value can not be lower than maximum value.')
+                        'message': _('Minimum value can not be greater than maximum value.')
                     }}
             if self.default_number_value:
                 if self.min_number_value:
