@@ -357,7 +357,7 @@ msgstr "Valores"
 
 #. module: product_feature
 #: selection:product_feature.feature,value_type:0
-msgid "Values table"
+msgid "Values Table"
 msgstr "Tabla valores"
 
 #. module: product_feature
