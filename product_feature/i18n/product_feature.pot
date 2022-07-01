@@ -1,0 +1,392 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* product_feature
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-10 07:58+0000\n"
+"PO-Revision-Date: 2020-07-10 07:58+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_feature_num_decimals
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_num_decimals
+msgid "# of decimals"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_code
+msgid "Code"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_company_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_company_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_company_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_company_id
+msgid "Company"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_create_uid
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_create_uid
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_create_uid
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_create_date
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_create_date
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_create_date
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_default_number_value
+msgid "Default Number Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_default_table_value_id
+msgid "Default Table Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_default_text_value
+msgid "Default Text Value"
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:173
+#: code:addons/product_feature/models/product_feature.py:197
+#, python-format
+msgid "Default value must not be greater than maximum value."
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:170
+#: code:addons/product_feature/models/product_feature.py:191
+#, python-format
+msgid "Default value must not be lower than minimum value."
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,help:product_feature.field_product_feature_feature_line_sequence
+#: model:ir.model.fields,help:product_feature.field_product_feature_value_sequence
+msgid "Determine the display order"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_display_name
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_display_name
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_display_name
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_feature_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_feature_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_feature_id
+msgid "Feature"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_code
+msgid "Feature Code"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_feature_line_id
+#: model:ir.ui.view,arch_db:product_feature.product_feature_line_form_view
+msgid "Feature Line"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.ui.view,arch_db:product_feature.product_feature_value_form_view
+msgid "Feature Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_name
+msgid "Feature Name"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_table_value_ids
+msgid "Feature Table Values"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_product_product_feature_value_ids
+msgid "Feature Values"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.actions.act_window,name:product_feature.feature_action
+#: model:ir.model.fields,field_description:product_feature.field_product_product_product_feature_line_ids
+#: model:ir.model.fields,field_description:product_feature.field_product_template_product_feature_line_ids
+#: model:ir.ui.menu,name:product_feature.menu_sale_feature_action
+#: model:ir.ui.menu,name:product_feature.menu_stock_feature_action
+#: model:ir.ui.view,arch_db:product_feature.product_normal_form_view
+#: model:ir.ui.view,arch_db:product_feature.product_template_only_form_view
+#: model:ir.ui.view,arch_db:product_feature.product_variant_easy_edit_view
+msgid "Features"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_id
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_id
+msgid "ID"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,help:product_feature.field_product_feature_feature_line_filtered_table_value_ids
+msgid "If you enter some values here, feature values of this template variant will be only allowed from this list. Leave empty to allow any value from feature to be choosen."
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature___last_update
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line___last_update
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value___last_update
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_write_uid
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_write_uid
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_write_uid
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_write_date
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_write_date
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_write_date
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_max_number_value
+msgid "Max. Number Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_min_number_value
+msgid "Min. Number Value"
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:166
+#: code:addons/product_feature/models/product_feature.py:184
+#, python-format
+msgid "Minimum value can not be greater than maximum value."
+msgstr ""
+
+#. module: product_feature
+#: model:ir.actions.act_window,help:product_feature.feature_action
+msgid "New Product Feature."
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:345
+#, python-format
+msgid "Not a valid float: %s"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_number_value
+#: selection:product_feature.feature,value_type:0
+msgid "Number Value"
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:396
+#: code:addons/product_feature/models/product_feature.py:408
+#, python-format
+msgid "Out of limits!"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_possible_value_ids
+msgid "Possible Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model,name:product_feature.model_product_product
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_product_id
+msgid "Product"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model,name:product_feature.model_product_feature_feature
+#: model:ir.ui.view,arch_db:product_feature.product_feature_form_view
+msgid "Product Feature"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model,name:product_feature.model_product_feature_feature_line
+msgid "Product Feature Line"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model,name:product_feature.model_product_feature_table_value
+msgid "Product Feature Table Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model,name:product_feature.model_product_feature_value
+msgid "Product Feature Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.ui.view,arch_db:product_feature.product_feature_tree_view
+msgid "Product Features"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model,name:product_feature.model_product_template
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_template_id
+msgid "Product Template"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_sequence
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_table_value_id
+msgid "Table Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_filtered_table_value_ids
+msgid "Table Values"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_text_value
+#: selection:product_feature.feature,value_type:0
+msgid "Text Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,help:product_feature.field_product_feature_feature_line_feature_value_type
+#: model:ir.model.fields,help:product_feature.field_product_feature_feature_value_type
+#: model:ir.model.fields,help:product_feature.field_product_feature_value_feature_value_type
+msgid "This selection defines the type of value used for the feature."
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_line_feature_value_type
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_feature_value_type
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_feature_value_type
+msgid "Type of Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_value
+msgid "Value"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_code
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_value_text_number_code
+msgid "Value Code"
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:293
+#, python-format
+msgid "Value must not be greater than maximum value."
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:374
+#: code:addons/product_feature/models/product_feature.py:410
+#, python-format
+msgid "Value must not be larger than maximum value (%s)."
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:365
+#: code:addons/product_feature/models/product_feature.py:398
+#, python-format
+msgid "Value must not be lower than minimum value (%s)."
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:288
+#, python-format
+msgid "Value must not be lower than minimum value."
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,field_description:product_feature.field_product_feature_table_value_name
+msgid "Value Name"
+msgstr ""
+
+#. module: product_feature
+#: code:addons/product_feature/models/product_feature.py:183
+#: code:addons/product_feature/models/product_feature.py:190
+#: code:addons/product_feature/models/product_feature.py:196
+#, python-format
+msgid "Value out of limits!"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.ui.view,arch_db:product_feature.product_feature_form_view
+msgid "Values"
+msgstr ""
+
+#. module: product_feature
+#: selection:product_feature.feature,value_type:0
+msgid "Values table"
+msgstr ""
+
+#. module: product_feature
+#: model:ir.actions.act_window,help:product_feature.feature_action
+msgid "You can create a Product Feature so you can indicate features for product variants as configured in his template."
+msgstr ""
+
+#. module: product_feature
+#: model:ir.model.fields,help:product_feature.field_product_product_product_feature_value_ids
+msgid "You can manage the features in the product template, then you can input here values for each one."
+msgstr ""
+
+#. module: product_feature
+#: sql_constraint:product_feature.value:0
+msgid "You can not have more than one value for a feature!"
+msgstr ""
+
+#. module: product_feature
+#: sql_constraint:product_feature.feature_line:0
+msgid "You can not have the same feature two times on the template!"
+msgstr ""
+
+#. module: product_feature
+#: sql_constraint:product_feature.feature:0
+msgid "You can not have two features with the same code and name!"
+msgstr ""
+
+#. module: product_feature
+#: sql_constraint:product_feature.table_value:0
+msgid "You can not have two values with the same code and name in the feature!"
+msgstr ""
+

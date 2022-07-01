@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2019 Fenix Engineering Solutions
+    @author Jose F. Fernandez
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+-->
+<odoo>
+    <record model="ir.ui.view" id="product_template_only_form_view">
+        <field name="name">product.features.template.only.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='variants']" position="after">
+                <page name="features" string="Features" groups="product.group_product_variant">
+                    <field name="product_feature_line_ids" widget="one2many_list">
+                        <tree string="Features">
+                            <field name="sequence" widget="handle" />
+                            <field name="feature_id"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="product_normal_form_view">
+        <field name="name">product.features.product.variants.form</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='general_information']" position="after">
+                <page name="features" string="Features" groups="product.group_product_variant">
+                    <field name="product_feature_value_ids" widget="one2many_list">
+                        <tree string="Features" create="false" delete="false">
+                            <field name="feature_id"/>
+                            <field name="code"/>
+                            <field name="value"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="product_variant_easy_edit_view" model="ir.ui.view">
+        <field name="name">product.product.view.feature.form.easy</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_variant_easy_edit_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='attribute_value_ids']/parent::group" position="after">
+                <group name="product_features" string="Features">
+                    <field name="product_feature_value_ids" widget="many2many_tags" readonly="1"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
